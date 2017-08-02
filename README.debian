@@ -1,0 +1,5 @@
+Build the package::
+
+    debuild -b -uc -us -tc
+
+Install it from ../

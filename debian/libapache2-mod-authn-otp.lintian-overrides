@@ -4,3 +4,9 @@ libapache2-mod-authn-otp binary: possible-gpl-code-linked-with-openssl
 
 # This package only handles config files. LFS ist not needed.
 libapache2-mod-authn-otp binary: binary-file-built-without-LFS-support
+
+# I don't know how to define and upstream changelog file.
+libapache2-mod-authn-otp binary: wrong-name-for-upstream-changelog
+
+# See https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=796285
+libapache2-mod-authn-otp binary: apache2-module-depends-on-real-apache2-package
