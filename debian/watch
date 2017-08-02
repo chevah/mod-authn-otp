@@ -1,0 +1,8 @@
+# See uscan(1) for format
+
+# Compulsory line, this is a version 3 file
+version=3
+
+# Examine the GitHub website for a new upstream version.
+opts=filenamemangle=s/.+\/v?(\d\S+)\.tar\.gz/mod-authn-otp-$1\.tar\.gz/ \
+  https://github.com/chevah/mod-authn-otp/tags .*/?(\d\S+)\.tar\.gz 1.1.6

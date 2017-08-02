@@ -1,0 +1,6 @@
+# Only the Debian packaging is licensed unter the GPL. The rest is
+# Apache 2.0 License 2.0 which should be no problem.
+libapache2-mod-authn-otp binary: possible-gpl-code-linked-with-openssl
+
+# This package only handles config files. LFS ist not needed.
+libapache2-mod-authn-otp binary: binary-file-built-without-LFS-support

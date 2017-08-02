@@ -1,0 +1,26 @@
+libapache2-mod-authn-otp (1.1.7+r4ee92f8-1~ppa16.04+1) xenial; urgency=low
+
+  * Merge package from mentors.debian.org, thanks Daniel Goß!
+
+ -- Adi Roiban <adiroiban@ubuntu.com>  Wed, 02 Aug 2017 08:45:41 +0100
+
+libapache2-mod-authn-otp (1.1.6+r145-2~ppa14.04+1) trusty; urgency=low
+
+  * Merge package from mentors.debian.org, thanks Daniel Goß!
+
+ -- Nicolas Derive <kalon33@ubuntu.com>  Thu, 30 Jan 2014 08:45:41 +0100
+
+libapache2-mod-authn-otp (1.1.6+r145-2) unstable; urgency=low
+
+  * Fixed missing dependency on apache2-api
+  * Added dh_apache2 to rules
+  * Build package for sid
+
+ -- Daniel Goss <developer@flashsystems.de>  Wed, 22 Jan 2014 20:19:27 +0100
+
+libapache2-mod-authn-otp (1.1.6+r145-1) unstable; urgency=low
+
+  * Initial release (Closes: #735059)
+  * Added authn_otp.load
+
+ -- Daniel Goss <developer@flashsystems.de>  Sun, 05 Jan 2014 20:41:02 +0100
